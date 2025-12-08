@@ -78,13 +78,12 @@ Create a `.env` file in the project root directory and configure the following e
 # Create .env file
 cd aws-samples/sample-tech-recon/tech-recon
 
+touch .env
+
 cat > /tech-recon/.env << 'EOF'
-# Company and Industry Configuration
 COMPANY_NAME=Pfizer ### Edit here to add your company name
 INDUSTRY=pharmaceutical/healthcare ### Edit here to add your industry
 TAVILY_API_KEY= ### Paste your Tavily API Key
-
-# Add other environment variables below
 EOF
 ```
 
